@@ -19,6 +19,11 @@
 python win_build_pyd.py
 ```
 
+tips: nuitka build pyd cmd is
+```shell
+python -m nuitka --module --no-pyi-file --output-dir=output_dir source_code.py
+```
+
 ## run
 
 copy this whole folder to the server
